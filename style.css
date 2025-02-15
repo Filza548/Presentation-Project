@@ -98,7 +98,7 @@ border: 5px solid #6720FF #FF1E5E #FF8101;
     width: 100%; /* Full underline on hover */
 }
 
-.header-section-1{
+.box-2{
     background-color: #352f5b;
 }
 
@@ -156,9 +156,229 @@ border: 5px solid #6720FF #FF1E5E #FF8101;
     border: 1px solid white;
 }
 
+.container{
+    /* border: 2px solid yellowgreen; */
+}
+
+.heading-1{
+    color: white;
+}
+
+.text-2{
+    color: white;
+}
+
+.images-apple-playstore{
+    cursor: pointer;
+}
+
+.hover:hover{
+    transform: scale(1.1);
+    border: 1px solid white;
+    box-shadow: 0 0 10px #FF1E53, 0 0 10px #FF8101, 0 0 15px #6720FF;
+}
+
+.col-6{
+    border: 2px solid white;
+}
+.map-img{
+    background-color: red;
+    width: 400px;
+    height: 300px;
+
+}
+
+.map-img img{
+    width: 100%;
+    height: 100%;
+}
+
+.heading-1{
+    text-decoration: 3px solid #FF8101 underline;
+}
+
+.read-more-button{
+    width: 140px;
+    height: 40px;
+    background-color:#352f5b;
+    color: white;
+    border-radius: 10px;
+    border: 1px solid #FF8101;
+}
+
+.read-more-button:hover{
+transform: scale(1.1);
+border: 1px solid white;
+box-shadow: 0 0 10px #FF1E53, 0 0 10px #FF8101, 0 0 15px #6720FF;
+}
+
+.one-div{
+    background-color: #352f5b;
+    border: 1px solid white;
+    width: 70px;
+    height: 70px;
+    border-radius: 50%;
+box-shadow: 0 0 10px #FF1E53, 0 0 10px #FF8101, 0 0 15px #6720FF;
+
+}
+
+.hand-color{
+    color: white;
+}
+
+.text-2{
+    /* background-color: yellowgreen; */
+}
 
 
+.one-main-div{
+    /* background-color: palevioletred; */
+    /* border: 1px solid white; */
+    /* border-radius: 10px; */
+}
 
+.car-img{
+    width: 400px;
+    height: 350px;
+/* background-color: yellowgreen; */
+}
+
+.car-img img{
+    width: 100%;
+    height: 100%;
+}
+
+.text-3{
+    color: white;
+}
+
+.box-4{
+    /* background-color: yellowgreen; */
+    
+}
+
+.card-1{
+    background-color: #352f5b;
+    border: 2px solid white;
+box-shadow: 0 0 10px #FF1E53, 0 0 10px #FF8101, 0 0 15px #6720FF;
+
+}
+
+.car-1-img{
+    width: 250px;
+    height: 180px;
+    /* background-color: lightblue; */
+}
+
+.car-1-img img{
+    width: 100%;
+    height: 100%;
+}
+
+.my-second-icons-div{
+    /* background-color: yellowgreen; */
+}
+
+.collage-image-2{
+    /* background-color: yellowgreen; */
+}
+
+.collage-image-child-1{
+    /* background-color: lightblue; */
+    width: 220px;
+    height: 180px;
+}
+
+.collage-image-child-1 img{
+    width: 100%;
+    height: 100%;
+}
+
+.collage-image-child-2{
+    background-color: rgb(90, 50, 111);
+    width: 220px;
+    height: 180px;
+}
+
+.collage-image-child-2 img{
+    width: 100%;
+    height: 100%;
+}
+
+.map-imges{
+    width: 400px;
+    height: 350px;
+    /* background-color: yellowgreen; */
+}
+
+.map-imges img{
+    width: 100%;
+    height: 100%;
+}
+
+.last-footer-container{
+    background-color: #352f5b;
+}
+
+.footer-first-col{
+    background-color: #352f5b;
+}
+
+.logo-img{
+    /* background-color: yellowgreen; */
+    width: 150px;
+    height: 50px;
+}
+
+.logo-img img{
+    width: 100%;
+    height: 100%;
+}
+
+.footer-second-col{
+    background-color: #352f5b;
+}
+
+ul{
+    list-style:none;
+    line-height: 30px;
+    /* background-color: yellowgreen */
+}
+
+ul li:hover{
+    cursor: pointer;
+    text-decoration: 1px solid #FF8101 underline;
+}
+
+.second-last-button{
+    width: 200px;
+    height: 50px;
+    border-radius: 20px;
+    background-color: #352f5b;
+    color: white;
+    border: 2px solid white;
+box-shadow: 0 0 10px #FF1E53, 0 0 10px #FF8101, 0 0 15px #6720FF;
+
+}
+
+.last-button{
+    width: 200px;
+    height: 50px;
+    border-radius: 20px;
+    border: 2px solid white;
+    background-color: #352f5b;
+    color: white;
+box-shadow: 0 0 10px #FF1E53, 0 0 10px #FF8101, 0 0 15px #6720FF;
+
+}
+
+.last-button:hover{
+cursor: pointer;
+}
+
+footer{
+    background-color: #352f5b;
+}
 
 
 
@@ -188,6 +408,48 @@ border: 5px solid #6720FF #FF1E5E #FF8101;
     .header-section-1{
         display: none;
     }
+
+    .c-r-1{
+        display: flex;
+        justify-content: center;
+    }
+
+    .c-r-2{
+        display: flex;
+        justify-content: center;
+    }
+
+    .div-image{
+        display: none;
+    }
+
+    .map-img:hover{
+
+    }
+    
+    .car-img{
+        display: flex;
+        justify-content: center;
+        width: 300px;
+        height: 250px;
+    }
+
+    .map-img{
+        width: 350px;
+        height: 250px;
+        display: flex;
+        justify-content: center;
+    }
+
+    .images-apple-playstore-again-responsive{
+        display: flex;
+    }
+
+
+   
+
+
+
   }
   
   /* Small devices (tablets, 576px and up) */
@@ -203,6 +465,27 @@ border: 5px solid #6720FF #FF1E5E #FF8101;
         display: none;
     }
 
+    .c-r-1{
+        display: flex;
+        justify-content: center;
+    }
+
+    .c-r-2{
+        display: flex;
+        justify-content: center;
+    }
+
+    .car-img{
+        display: flex;
+        justify-content: center;
+    }
+
+    .images-apple-playstore-again-responsive{
+        display: flex;
+    }
+
+    
+    
   }
   
   /* Medium devices (desktops, 768px and up) */
@@ -218,6 +501,18 @@ border: 5px solid #6720FF #FF1E5E #FF8101;
     .header-section-1{
         display: none;
     }
+
+    .c-r-1{
+        display: flex;
+        justify-content: center;
+    }
+
+    .c-r-2{
+        display: flex;
+        justify-content: center;
+    }
+    
+    
   }
   
   /* Large devices (large desktops, 992px and up) */
@@ -229,6 +524,7 @@ border: 5px solid #6720FF #FF1E5E #FF8101;
     .header-section{
         display: none;
     }
+
   }
   
   /* Extra large devices (1200px and up) */
