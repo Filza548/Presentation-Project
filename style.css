@@ -8,6 +8,51 @@ body{
     background-color: #231c38;
 }
 
+/* animation css is started now */
+
+.animt{
+    animation:fadeInDown;
+    animation-duration: 2s;
+}
+
+.animt-1{
+    animation:fadeInUp;
+    animation-duration: 2s;
+}
+
+.animt-2{
+    animation:fadeOut;
+animation-duration: 2s;
+}
+
+.animt-3{
+    animation:fadeInUp;
+    animation-duration: 2s;
+}
+
+.animt-4:hover{
+    animation:headShake;
+    animation-duration: 5s;
+}
+
+.animt-5:hover{
+    animation:pulse;
+    animation-duration: 2s;
+    cursor: pointer;
+}
+
+.animt-6:hover{
+    animation:pulse;
+    animation-duration: 2s;
+    cursor: pointer;
+    /* transform: scale(1.1); */
+}
+
+/* animation is completed */
+
+
+
+
 .box-1{
     background-color: #231c38;
     width: 100%;
@@ -137,7 +182,17 @@ border: 5px solid #6720FF #FF1E5E #FF8101;
 
 .icn:hover::after {
     width: 100%; /* Full underline on hover */
+    
 }
+
+
+
+.icn-1{
+    animation:pulse;
+    animation-duration: 1s;
+}
+
+
 
 
 
@@ -361,6 +416,11 @@ box-shadow: 0 0 10px #FF1E53, 0 0 10px #FF8101, 0 0 15px #6720FF;
 
 }
 
+.second-last-button:hover{
+    cursor: pointer;
+    background-color: #231c38;
+    }
+
 .last-button{
     width: 200px;
     height: 50px;
@@ -374,6 +434,7 @@ box-shadow: 0 0 10px #FF1E53, 0 0 10px #FF8101, 0 0 15px #6720FF;
 
 .last-button:hover{
 cursor: pointer;
+background-color: #231c38;
 }
 
 footer{
@@ -384,6 +445,8 @@ footer{
     color:white;
 text-decoration: none;
 }
+
+
 
 
 

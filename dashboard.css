@@ -4,6 +4,53 @@
     box-sizing: border-box;
 }
 
+/* animation css is started now */
+
+.animt{
+  animation:fadeInDown;
+  animation-duration: 2s;
+}
+
+.animt-1{
+  animation:fadeInUp;
+  animation-duration: 2s;
+}
+
+.animt-2{
+  animation:fadeOut;
+animation-duration: 2s;
+}
+
+.animt-3{
+  animation:fadeInUp;
+  animation-duration: 2s;
+}
+
+.animt-4:hover{
+  animation:headShake;
+  animation-duration: 5s;
+}
+
+.animt-5:hover{
+  animation:pulse;
+  animation-duration: 2s;
+  cursor: pointer;
+}
+
+.animt-6:hover{
+  animation:pulse;
+  animation-duration: 2s;
+  cursor: pointer;
+  /* transform: scale(1.1); */
+}
+
+/* animation is completed */
+
+
+.container-fluid{
+  background-color: #352f5b;
+}
+
 .container{
     /* border: 2px solid yellowgreen; */
 }
