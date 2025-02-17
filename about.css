@@ -1,58 +1,16 @@
 *{
     margin: 0;
     padding: 0;
-box-sizing: border-box;
+    box-sizing: border-box;
 }
+
+/* nav */
+
+
 
 body{
     background-color: #231c38;
 }
-
-
-/* animation css is started now */
-
-.animt{
-    animation:fadeInDown;
-    animation-duration: 2s;
-}
-
-.animt-1{
-    animation:fadeInUp;
-    animation-duration: 2s;
-}
-
-.animt-2{
-    animation:fadeOut;
-animation-duration: 2s;
-}
-
-.animt-3{
-    animation:fadeInUp;
-    animation-duration: 2s;
-}
-
-.animt-4:hover{
-    animation:headShake;
-    animation-duration: 5s;
-}
-
-.animt-5:hover{
-    animation:pulse;
-    animation-duration: 2s;
-    cursor: pointer;
-}
-
-.animt-6:hover{
-    animation:pulse;
-    animation-duration: 2s;
-    cursor: pointer;
-    /* transform: scale(1.1); */
-}
-
-/* animation is completed */
-
-
-
 
 .box-1{
     background-color: #231c38;
@@ -282,16 +240,7 @@ box-shadow: 0 0 10px #FF1E53, 0 0 10px #FF8101, 0 0 15px #6720FF;
     color: white;
 }
 
-.text-2{
-    /* background-color: yellowgreen; */
-}
 
-
-.one-main-div{
-    /* background-color: palevioletred; */
-    /* border: 1px solid white; */
-    /* border-radius: 10px; */
-}
 
 .car-img{
     width: 400px;
@@ -308,10 +257,6 @@ box-shadow: 0 0 10px #FF1E53, 0 0 10px #FF8101, 0 0 15px #6720FF;
     color: white;
 }
 
-.box-4{
-    /* background-color: yellowgreen; */
-    
-}
 
 .card-1{
     background-color: #352f5b;
@@ -331,13 +276,7 @@ box-shadow: 0 0 10px #FF1E53, 0 0 10px #FF8101, 0 0 15px #6720FF;
     height: 100%;
 }
 
-.my-second-icons-div{
-    /* background-color: yellowgreen; */
-}
 
-.collage-image-2{
-    /* background-color: yellowgreen; */
-}
 
 .collage-image-child-1{
     /* background-color: lightblue; */
@@ -417,11 +356,6 @@ box-shadow: 0 0 10px #FF1E53, 0 0 10px #FF8101, 0 0 15px #6720FF;
 
 }
 
-.second-last-button:hover{
-    cursor: pointer;
-    background-color: #231c38;
-    }
-
 .last-button{
     width: 200px;
     height: 50px;
@@ -435,7 +369,6 @@ box-shadow: 0 0 10px #FF1E53, 0 0 10px #FF8101, 0 0 15px #6720FF;
 
 .last-button:hover{
 cursor: pointer;
-background-color: #231c38;
 }
 
 footer{
@@ -448,167 +381,117 @@ text-decoration: none;
 }
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-/* Extra small devices (phones, less than 576px) */
-@media (max-width: 575.98px) {
-    body {
-      /* background-color: lightblue; */
-    }
-
-    .header-section{
-        display: none;
-    }
-
+@media (max-width:900px){
     .header-section-1{
         display: none;
     }
-
-    .c-r-1{
-        display: flex;
-        justify-content: center;
-    }
-
-    .c-r-2{
-        display: flex;
-        justify-content: center;
-    }
-
-    .div-image{
-        display: none;
-    }
-
-    .map-img:hover{
-
-    }
-    
-    .car-img{
-        display: flex;
-        justify-content: center;
-        width: 300px;
-        height: 250px;
-    }
-
-    .map-img{
-        width: 350px;
-        height: 250px;
-        display: flex;
-        justify-content: center;
-    }
-
-    .images-apple-playstore-again-responsive{
-        display: flex;
-    }
-
-
-   
-
-
-
-  }
-  
-  /* Small devices (tablets, 576px and up) */
-  @media (min-width: 576px) and (max-width: 767.98px) {
-    body {
-      /* background-color: lightgreen; */
-    }
-
-    .header-section{
-        display: none;
-    }
-    .header-section-1{
-        display: none;
-    }
-
-    .c-r-1{
-        display: flex;
-        justify-content: center;
-    }
-
-    .c-r-2{
-        display: flex;
-        justify-content: center;
-    }
-
-    .car-img{
-        display: flex;
-        justify-content: center;
-    }
-
-    .images-apple-playstore-again-responsive{
-        display: flex;
-    }
-
-    
-    
-  }
-  
-  /* Medium devices (desktops, 768px and up) */
-  @media (min-width: 768px) and (max-width: 991.98px) {
-    body {
-      /* background-color: lightcoral; */
-    }
-
-    .header-section{
-        display: none;
-    }
-
-    .header-section-1{
-        display: none;
-    }
-
-    .c-r-1{
-        display: flex;
-        justify-content: center;
-    }
-
-    .c-r-2{
-        display: flex;
-        justify-content: center;
-    }
-    
-    
-  }
-  
-  /* Large devices (large desktops, 992px and up) */
-  @media (min-width: 992px) and (max-width: 1199.98px) {
-    body {
-      /* background-color: lightgoldenrodyellow; */
-    }
-
-    .header-section{
-        display: none;
-    }
-
-  }
-  
-  /* Extra large devices (1200px and up) */
-  @media (min-width: 1200px) {
-    body {
-      /* background-color: lightgray; */
-    }
-.header-section{
-    display: none;
 }
 
 
 
-  }
+/* nav */
+.main-sec{
+    background-color: #231c38;
+     color: white;
+}
+
+.ab-head{
+    color: white;
+    text-decoration: 3px solid #FF8101 underline;
+}
+
+.nav-butt2{
+    background-color: #352f5b;
+    color: white;
+    border-radius: 25px;
+    border: none;
+    box-shadow: 0 0 10px #FF1E53, 0 0 10px #FF8101, 0 0 15px #6720FF; 
+}
+
+.nav-butt2:hover{
+    border: 2px solid white;
+}
+
+.car-img{
+    /* background-color: brown; */
+    padding: 25px;
+    width: 900px;
+    display: flex;
+    align-items: center;
+    /* height: 430px; */
+
+}
+
+
+.car-img img{
+    /* width: 650px; */
+    width: 100%;
+   
+}
+
+
+
+.icons img{
+    background-color: #564c91;
+    color: white;
+    box-shadow: 0 0 10px #FF1E53, 0 0 10px #FF8101, 0 0 15px #6720FF; 
+    border-radius: 50%;
+    padding: 25px;
+    border: 2px solid rgb(20, 19, 19);
+}
+
+.icons:hover{
+    animation:rubberBand;
+    animation-duration: 1s;
+}
+
+.icons img:hover{
+    border: 2px solid rgb(252, 248, 248);
+   
+}
+
+.card-text1{
+    background-color: #352f5b;
+    color: white;
+    box-shadow: 2px 2px 5px grey;
+}
+
+.card1{
+    background-color: #352f5b;
+    color: white;
+    border-radius: 25px;
+    box-shadow: 0 0 10px #FF1E53, 0 0 10px #FF8101, 0 0 15px #6720FF; 
+}
+
+.card1:hover{
+    animation:flipOutY;
+    animation-duration: 1s;
+}
+
+.card2{
+    background-color: #352f5b;
+    color: white;
+    border-radius: 25px;
+    box-shadow: 0 0 10px #FF1E53, 0 0 10px #FF8101, 0 0 15px #6720FF; 
+}
+
+.card2:hover{
+    animation:flash;
+    animation-duration: 1s;
+}
+
+@media (max-width:769px){
+    .car-img {
+        display: none;
+        /* visibility: hidden; */
+    }
+}
 
 
 
 
+
+
+
+
+        /* box-shadow: 0 0 10px #FF1E53, 0 0 10px #FF8101, 0 0 15px #6720FF; */

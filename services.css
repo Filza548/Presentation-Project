@@ -1,58 +1,15 @@
 *{
     margin: 0;
     padding: 0;
-box-sizing: border-box;
+    box-sizing: border-box;
 }
+
+
+/* nav */
 
 body{
     background-color: #231c38;
 }
-
-
-/* animation css is started now */
-
-.animt{
-    animation:fadeInDown;
-    animation-duration: 2s;
-}
-
-.animt-1{
-    animation:fadeInUp;
-    animation-duration: 2s;
-}
-
-.animt-2{
-    animation:fadeOut;
-animation-duration: 2s;
-}
-
-.animt-3{
-    animation:fadeInUp;
-    animation-duration: 2s;
-}
-
-.animt-4:hover{
-    animation:headShake;
-    animation-duration: 5s;
-}
-
-.animt-5:hover{
-    animation:pulse;
-    animation-duration: 2s;
-    cursor: pointer;
-}
-
-.animt-6:hover{
-    animation:pulse;
-    animation-duration: 2s;
-    cursor: pointer;
-    /* transform: scale(1.1); */
-}
-
-/* animation is completed */
-
-
-
 
 .box-1{
     background-color: #231c38;
@@ -417,11 +374,6 @@ box-shadow: 0 0 10px #FF1E53, 0 0 10px #FF8101, 0 0 15px #6720FF;
 
 }
 
-.second-last-button:hover{
-    cursor: pointer;
-    background-color: #231c38;
-    }
-
 .last-button{
     width: 200px;
     height: 50px;
@@ -435,7 +387,6 @@ box-shadow: 0 0 10px #FF1E53, 0 0 10px #FF8101, 0 0 15px #6720FF;
 
 .last-button:hover{
 cursor: pointer;
-background-color: #231c38;
 }
 
 footer{
@@ -448,167 +399,46 @@ text-decoration: none;
 }
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-/* Extra small devices (phones, less than 576px) */
-@media (max-width: 575.98px) {
-    body {
-      /* background-color: lightblue; */
-    }
-
-    .header-section{
-        display: none;
-    }
-
+@media (max-width:900px){
     .header-section-1{
         display: none;
     }
-
-    .c-r-1{
-        display: flex;
-        justify-content: center;
-    }
-
-    .c-r-2{
-        display: flex;
-        justify-content: center;
-    }
-
-    .div-image{
-        display: none;
-    }
-
-    .map-img:hover{
-
-    }
-    
-    .car-img{
-        display: flex;
-        justify-content: center;
-        width: 300px;
-        height: 250px;
-    }
-
-    .map-img{
-        width: 350px;
-        height: 250px;
-        display: flex;
-        justify-content: center;
-    }
-
-    .images-apple-playstore-again-responsive{
-        display: flex;
-    }
-
-
-   
-
-
-
-  }
-  
-  /* Small devices (tablets, 576px and up) */
-  @media (min-width: 576px) and (max-width: 767.98px) {
-    body {
-      /* background-color: lightgreen; */
-    }
-
-    .header-section{
-        display: none;
-    }
-    .header-section-1{
-        display: none;
-    }
-
-    .c-r-1{
-        display: flex;
-        justify-content: center;
-    }
-
-    .c-r-2{
-        display: flex;
-        justify-content: center;
-    }
-
-    .car-img{
-        display: flex;
-        justify-content: center;
-    }
-
-    .images-apple-playstore-again-responsive{
-        display: flex;
-    }
-
-    
-    
-  }
-  
-  /* Medium devices (desktops, 768px and up) */
-  @media (min-width: 768px) and (max-width: 991.98px) {
-    body {
-      /* background-color: lightcoral; */
-    }
-
-    .header-section{
-        display: none;
-    }
-
-    .header-section-1{
-        display: none;
-    }
-
-    .c-r-1{
-        display: flex;
-        justify-content: center;
-    }
-
-    .c-r-2{
-        display: flex;
-        justify-content: center;
-    }
-    
-    
-  }
-  
-  /* Large devices (large desktops, 992px and up) */
-  @media (min-width: 992px) and (max-width: 1199.98px) {
-    body {
-      /* background-color: lightgoldenrodyellow; */
-    }
-
-    .header-section{
-        display: none;
-    }
-
-  }
-  
-  /* Extra large devices (1200px and up) */
-  @media (min-width: 1200px) {
-    body {
-      /* background-color: lightgray; */
-    }
-.header-section{
-    display: none;
 }
 
 
+/* nav */
 
-  }
+.card-icon2{
+     /* background-color: blue; */
+    
+}
+.card-pad{
+    padding: 22px;
+}
 
+.nav-icon2 {
+    font-size: 45px;
+}
 
+.service-sec{
+    background-color: #231c38;
+}
 
+.serv-head{
+    color: white;
+    text-decoration: 3px solid #FF8101 underline;
+}
 
+.serv-card{
+    background-color: #352f5b;
+    color: white;
+    box-shadow: 0 0 10px #FF1E53, 0 0 10px #FF8101, 0 0 15px #6720FF; 
+}
+
+.serv-card{
+    animation:backInUp;
+    animation-duration: 1s;
+}
+.serv-card:hover{
+    transform:translateY(-10px);
+}
